@@ -1,0 +1,60 @@
+:root{
+    --image:url(/img/img1.jpg);
+    --bgclr:#efe9ed;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+
+body{
+    display:block;
+}
+div{
+    display:block;
+}
+.container{
+    background-color:var(--bgclr);
+    width:100vw;
+    height:100vh;
+}
+.image{
+    background-image:var(--image);   
+    background-position: center;
+    background-size: cover; 
+    background-repeat:no-repeat;
+    width:40vw;
+    height:100vh;
+    
+   
+}
+.container, .logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+.register{
+    font-size:30px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    
+}
+.doodle{
+    justify-content: center;
+    display:flex;
+    height:30vh;
+    width:30vh;
+    align-items:center;
+   
+}
+.logo{
+
+background-color: rgba(0, 0, 0, 0.7);
+position:relative;
+top: 20vh;
+gap: 1vw;
+justify-content: center;
+align-items: center;
+}
