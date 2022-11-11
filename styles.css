@@ -1,5 +1,5 @@
 :root{
-    --image:url(/img/img1.jpg);
+    
     --bgclr:#efe9ed;
 }
 *{
@@ -20,7 +20,7 @@ div{
     height:100vh;
 }
 .image{
-    background-image:var(--image);   
+    background-image:url("img/img1.jpg");   
     background-position: center;
     background-size: cover; 
     background-repeat:no-repeat;
