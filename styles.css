@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;}
+}
 
 body{
     display:block;
@@ -57,4 +57,110 @@ top: 20vh;
 gap: 1vw;
 justify-content: center;
 align-items: center;
+}
+
+.intro{
+    margin:5vh 0 0 0;
+    width:60vw;
+    height:20vh;
+    background-color:rgba(255, 241, 241, 0.7);
+    text-align:center;
+    font-size:50px;
+    font-family: 'GoodDog Plain', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:rgba(241, 210, 143, 0.7);
+}
+.spand{
+    font-family: 'GoodDog Plain', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:rgba(197, 160, 86, 0.7);
+
+}
+a{
+    text-decoration:none;
+}
+a::before {
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(197, 160, 86, 0.7);
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgb(197, 160, 86, 0.7);
+  }
+  a:hover {
+    color: #938e42;
+    box-shadow: 0 0 5px rgb(197, 160, 86, 0.7);
+    text-shadow: 0 0 5px rgb(197, 160, 86, 0.7);
+  }
+
+.signup{
+    height: 65vh;
+    width:45vw;
+    background-color:rgba(255, 241, 241, 0.7);
+    margin-left:8vw;
+    margin-top:5vh;
+    font-size:20px;
+    align-items:left;
+    border-radius:10px;
+}
+.title{
+    font-family: 'GoodDog Plain', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:rgba(236, 205, 144, 0.7);
+    display:flex;
+    align-items:flex-start;
+    margin-left:2vw;
+    font-size:4rem;
+    width:100%;
+}
+form{
+    display:block;
+}
+.form {
+    display:flex;
+    flex-flow:row wrap;
+    gap:20px;
+    padding-top:80px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+.left{
+    padding-left:3vw;
+}
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:rgb(131, 126, 126);
+    
+}
+input{
+    background-color: rgb(235, 191, 191);
+    border: 1px solid rgb(226, 218, 218);
+    border-radius: 3px;
+    
+}
+.btn{
+    height:9vh;
+    width:10vw;
+    color:black;
+    font-size:2rem;
+}
+
+.footer{
+    font-size:1rem;
+    color:black;
 }
